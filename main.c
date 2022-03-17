@@ -49,71 +49,59 @@ p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "JANUARY" << std::endl;
-std::cout << "\n" << std::endl;
 m=2;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "FEBRUARY" << std::endl;
-std::cout << "\n" << std::endl;
 m=3;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "MARCH" << std::endl;
-std::cout << "\n" << std::endl;
 m=4;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "APRIL" << std::endl;
-std::cout << "\n" << std::endl;
 m=5;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "MAY" << std::endl;
-std::cout << "\n" << std::endl;
 m=6;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "JUNE" << std::endl;
-std::cout << "\n" << std::endl;
 m=7;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "JULY" << std::endl;
-std::cout << "\n" << std::endl;
 m=8;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "AUGUST" << std::endl;
-std::cout << "\n" << std::endl;
 m=9;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "SEPTEMBER" << std::endl;
-std::cout << "\n" << std::endl;
 m=10;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "OCTOBER" << std::endl;
-std::cout << "\n" << std::endl;
 m=11;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "NOVEMBER" << std::endl;
-std::cout << "\n" << std::endl;
 m=12;
 p=(arr[m-1]/arr[temp])*100;
 for(int i=0;i<=p;i++)
 std::cout<<"▧";
 std::cout << "DECEMBER" << std::endl;
-std::cout << "\n" << std::endl;
 }}
