@@ -8,6 +8,7 @@ int main()
     tm *ltm = localtime(&now);
 int i,c,temp=0;
 char ch;
+float p;
 std::cout << "Is the area you are about to search an hilly area> [y/n]: " << std::endl;
 std::cin >> ch;
 if(ch=='n'){
@@ -22,13 +23,18 @@ for (i = 1; i < 12; ++i)
     if (arr[temp] < arr[i])
     temp=i;
 }
-if(arr[temp]>100){
+if(arr[temp]>=100){
 int m= 1 + ltm->tm_mon;
-float p=(arr[m-1]/arr[temp])*100;
-std::cout<<"Probility of flood is: "<<p<<"%";}
+p=(arr[m-1]/arr[temp])*100;
+std::cout<<"Probility of flood is: "<<p<<"%\n";}
 else
-std::cout<<"Probility of flood is: nil";
-}
+std::cout<<"Probility of flood is: nil\n";
+if((p>=80.0)&&(arr[temp]>=100))
+std::cout<<"Response: Flooding expected. Stay Alert";
+else if((p>=40.0)&&(p<80.0)&&(arr[temp]>=100))
+std::cout<<"Response: Low chances of flooding unless heavy rain in a short time occurs";
+else if((p<40.0)&&(arr[temp]>=100))
+std::cout<<"Response: Almost no chances of flooding";}
 else if(ch=='y')
 std::cout<<"Probility of flood is: nil";
 else
