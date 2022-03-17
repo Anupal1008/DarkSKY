@@ -28,7 +28,7 @@ int m= 1 + ltm->tm_mon;
 p=(arr[m-1]/arr[temp])*100;
 std::cout<<"Probility of flood is: "<<p<<"%\n";}
 else
-std::cout<<"Probility of flood is: nil\n";
+std::cout<<"Probility of flood is: ≈nil\n";
 if((p>=80.0)&&(arr[temp]>=100))
 std::cout<<"Response: Flooding expected. Stay Alert";
 else if((p>=40.0)&&(p<80.0)&&(arr[temp]>=100))
@@ -36,7 +36,7 @@ std::cout<<"Response: Low chances of flooding unless heavy rain in a short time 
 else if((p<40.0)&&(arr[temp]>=100))
 std::cout<<"Response: Almost no chances of flooding";}
 else if(ch=='y')
-std::cout<<"Probility of flood is: nil";
+std::cout<<"Probility of flood is: ≈nil\nResponse: Chances of flood are almost none but beware of flash floods.";
 else
 std::cout << "Please enter [y/n] only and try again..." << std::endl;
 }
